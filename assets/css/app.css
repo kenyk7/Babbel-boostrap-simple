@@ -59,6 +59,7 @@ a:hover {
 }
 .navbar {
   font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
   color: #222;
   font-weight: 500;
   border-radius: 0;

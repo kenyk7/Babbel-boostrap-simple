@@ -1,16 +1,15 @@
-@p-color : #F07D2C;
-
+@pcolor : #F07D2C;
 body{
 	color: #333;
 }
 a{
-	color: @p-color;
+	color: @pcolor;
 	&:hover{
-		color: darken(@p-color, 10%);
+		color: darken(@pcolor, 10%);
 	}
 }
 .primary-color{
-	color: @p-color;
+	color: @pcolor;
 }
 .posr{
 	position: relative;
@@ -55,7 +54,7 @@ a{
 .datos-header{
 	margin-top: 5px;
 	font-size: 12px;
-	border-right: 1px solid @p-color;
+	border-right: 1px solid @pcolor;
 	padding-right: 15px;
 	line-height: 1.7;
 	color: #777;
@@ -65,6 +64,8 @@ a{
 }
 .navbar{
 	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	
 	color: #222;
 	font-weight: 500;
 	border-radius: 0;
@@ -98,7 +99,7 @@ a{
 	left: 0;
 	right: 0;
 	bottom: -8px;
-	border-bottom: 3px solid @p-color;
+	border-bottom: 3px solid @pcolor;
 }
 .ws-home{
 	padding: 150px 0;
@@ -128,7 +129,7 @@ a{
 		width: 460px;
 		text-transform: uppercase;
 		padding: 7px 10px;
-		background: @p-color;
+		background: @pcolor;
 	}
 	p{
 		color: #999;
@@ -147,7 +148,7 @@ a{
 
 footer{
 	background: #222;
-	border-bottom: 4px solid @p-color;
+	border-bottom: 4px solid @pcolor;
 	color: #888;
 	.title-footer{
 		font-family: "Roboto", sans-serif;
@@ -215,7 +216,7 @@ footer{
 		display: block;
 		font-family: "Roboto", sans-serif;
 		&:hover{
-			color: @p-color;
+			color: @pcolor;
 		}
 	}
 }

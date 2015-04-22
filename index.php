@@ -5,14 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Sentra</title>
+  <title>Babbel Template BootStrap</title>
 
   <!-- Bootstrap -->
   <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,500' rel='stylesheet' type='text/css'>
   <link href="assets/css/app.css" rel="stylesheet">
-  <link rel="icon" href="assets/images/favicon.png">
+  <link rel="icon" href="assets/images/favicon.ico">
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -74,18 +74,18 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand visible-xs" href="#">Sentra</a>
+        <a class="navbar-brand visible-xs" href="#">Babbel</a>
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-left">
-          <li class="active"><a href="#">HOME</a></li>
-          <li class=""><a href="#">FEATURES</a></li>
-          <li class=""><a href="#">PAGES</a></li>
-          <li class=""><a href="#">PORTFOLIO</a></li>
-          <li class=""><a href="#">BLOG NEWS</a></li>
-          <li class=""><a href="#">CONTACTS</a></li>
+          <li class="active"><a href="#">Inicio</a></li>
+          <li class=""><a href="#">Nosotros</a></li>
+          <li class=""><a href="#">Servicios</a></li>
+          <li class=""><a href="#">Portafolio</a></li>
+          <li class=""><a href="#">Blog News</a></li>
+          <li class=""><a href="#">Contáctanos</a></li>
         </ul>
         <form class="navbar-form navbar-right" role="search" method="post" action="#">
           <div class="input-group input-group-search">
@@ -186,6 +186,12 @@
         </div>
         <div class="col-md-3 col-sm-6">
           <h2 class="title-footer">Flickr Photo Stream</h2>
+          <div class="text-left">
+          	<img src="assets/images/flickr-photo.jpg" alt="Photo Title" width="125" height="90">
+          	<img src="assets/images/flickr-photo.jpg" alt="Photo Title" width="125" height="90">
+          	<img src="assets/images/flickr-photo.jpg" alt="Photo Title" width="125" height="90">
+          	<img src="assets/images/flickr-photo.jpg" alt="Photo Title" width="125" height="90">
+          </div>
         </div>
         <div class="col-md-3 col-sm-6">
           <h2 class="title-footer">Información de Contacto</h2>
